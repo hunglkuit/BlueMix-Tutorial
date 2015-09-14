@@ -15,3 +15,11 @@ The constructor builds the IBMIoT client instance received an options dict conta
 * auth-method - Method of authentication (the only value currently supported is “token”).
 * auth-token - API key token (required if auth-method is “token”).
 
+Example Code: 
+```
+deviceOptions = {"org": organization, "type": deviceType, "id": deviceId, "auth-method": authMethod, "auth-token": authToken}
+deviceCli = ibmiotf.device.Client(deviceOptions)
+myData = { 'hello' : 'world', 'x' : x}
+deviceCli.publishEvent(event="greeting", msgFormat="json", data=myData)
+```
+
