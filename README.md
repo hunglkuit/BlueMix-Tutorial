@@ -4,7 +4,7 @@ This repository is used to share my experiences while working on Bluemix platfor
 
 * [Python Application used to connect to IBM IoT service] (#ibmiot-client)
 <a name='ibmiot-client'>
-## Python Applocation connect to IBM IoT service
+## Python Applocation connect to IBM IoT service.
 
 This application is implemented on IBMIOT library. We can download and install this library by using command `pip install ibmiotf`. 
 The constructor builds the IBMIoT client instance received an options dict containing the following definitions:
