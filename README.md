@@ -15,7 +15,7 @@ The constructor builds the IBMIoT client instance received an options dict conta
 * auth-method - Method of authentication (the only value currently supported is “token”).
 * auth-token - API key token (required if auth-method is “token”).
 
-After success creation, we connect to IBM IoT by using 'connect()' method and publish data via 'publishEvent() ' 
+After success creation, we connect to IBM IoT by using 'connect()' method and publish data via 'publishEvent()'. 
 Example Code: 
 ```
 deviceOptions = {"org": organization, "type": deviceType, "id": deviceId, "auth-method": authMethod, "auth-token": authToken}
